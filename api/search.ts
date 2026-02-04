@@ -31,7 +31,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // filter results
     const results = data.filter((person) => {
-      const id = person.ID ? person.ID.toString() : "";
+      const id = person.MemberID ? person.MemberID.toString() : "";
       const name = person.FullName
         ? person.FullName.toString().toLowerCase()
         : "";

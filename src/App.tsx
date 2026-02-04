@@ -73,7 +73,7 @@ function App() {
             }}
           >
             <h3>{member.FullName}</h3>
-            <p>ID: {member.ID}</p>
+            <p>ID: {member.MemberID}</p>
             <p>Role: {member.Role}</p>
             <p>Email: {member.Email}</p>
           </div>
